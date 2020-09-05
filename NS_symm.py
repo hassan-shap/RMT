@@ -4,7 +4,6 @@ import numpy as np
 from math import pi, sqrt, tanh
 import matplotlib.pyplot as plt
 from scipy.linalg import block_diag
-from ipywidgets import interact
 from os import path
 #from quimb import *
 import time
@@ -35,9 +34,9 @@ def p_transpose_2(V,Na,Nb):
     return U
 
 
-Nrep=100
-r=4 # local Hilbert space dim
-symm=1
+Nrep=10000
+r=2 # local Hilbert space dim
+symm=0
 
 La=3
 Lb=La
@@ -62,8 +61,8 @@ else:
     Nab_r=Na*Nb
 
 # L_sw=range(8,13)
-# L_sw=range(12,16)
-L_sw=[15]
+L_sw=range(12,17)
+# L_sw=[15]
 
 # v1T=np.zeros((Nrep*Nb*Na,len(L_sw)))
 v1T=np.zeros(Nrep*Nb*Na)
