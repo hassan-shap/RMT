@@ -25,9 +25,9 @@ def Hilbertspace_Zr(N,r):
     return states
 
 Nrep=1
-r=2 # local Hilbert space dim
+r=4 # local Hilbert space dim
 
-L=18
+L=14
 Lab_sw=np.arange(2,L+1)
 # La_sw=np.arange(1,int(L/2)+1)
 # La_sw= [1] # range(1,6) 
@@ -95,6 +95,4 @@ f1= 'LN_r_%d_L_%d.npz' % (r,L)
 out_dir = 'data/' 
 fname = out_dir+f1
 np.savez(fname, neg_symm=neg_symm, neg_full=neg_full, Lab_sw=Lab_sw, Nrep=Nrep)
-
-
 
