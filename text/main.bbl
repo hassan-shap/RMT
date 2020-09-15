@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{9}%
+\begin{thebibliography}{10}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -103,6 +103,16 @@
   {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo
   {volume} {453}},\ \bibinfo {pages} {531 } (\bibinfo {year}
   {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Penington}\ \emph {et~al.}(2019)\citenamefont
+  {Penington}, \citenamefont {Shenker}, \citenamefont {Stanford},\ and\
+  \citenamefont {Yang}}]{Shenker2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Penington}}, \bibinfo {author} {\bibfnamefont {S.~H.}\ \bibnamefont
+  {Shenker}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Stanford}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Yang}},\ }\href
+  {https://arxiv.org/abs/1911.11977} {\bibfield  {journal} {\bibinfo  {journal}
+  {arXiv:1911.11977}\ } (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{de Pietri}}\ and\ \citenamefont
   {{Rovelli}}(1996)}]{1996PhRvD..54.2664D}%
   \BibitemOpen
