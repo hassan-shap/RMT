@@ -1,0 +1,103 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{6}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Page}(1993)}]{Page1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont
+  {Page}},\ }\href {\doibase 10.1103/PhysRevLett.71.1291} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {71}},\
+  \bibinfo {pages} {1291} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lloyd}\ and\ \citenamefont
+  {Pagels}(1988)}]{Lloyd1988}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Lloyd}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Pagels}},\
+  }\href {\doibase https://doi.org/10.1016/0003-4916(88)90094-2} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {188}},\ \bibinfo {pages} {186 } (\bibinfo {year}
+  {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zyczkowski}\ and\ \citenamefont
+  {Sommers}(2001)}]{Zyczkowski2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Zyczkowski}}\ and\ \bibinfo {author} {\bibfnamefont {H.-J.}\ \bibnamefont
+  {Sommers}},\ }\href {\doibase 10.1088/0305-4470/34/35/335} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Physics A: Mathematical and
+  General}\ }\textbf {\bibinfo {volume} {34}},\ \bibinfo {pages} {7111}
+  (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Forrester}(2010)}]{Forrester}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Forrester}},\ }\href {www.jstor.org/stable/j.ctt7t5vq} {\emph {\bibinfo
+  {title} {Log-Gases and Random Matrices}}}\ (\bibinfo  {publisher} {Princeton
+  University Press, Princeton, NJ},\ \bibinfo {year} {2010})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Jurkiewicz}\ \emph {et~al.}(2008)\citenamefont
+  {Jurkiewicz}, \citenamefont {Lukaszewski},\ and\ \citenamefont
+  {Nowak}}]{Jurkiewicz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Jurkiewicz}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Lukaszewski}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Nowak}},\ }\href {https://www.actaphys.uj.edu.pl/R/39/4/799/pdf} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Phys. Pol. B}\ }\textbf {\bibinfo
+  {volume} {39}},\ \bibinfo {pages} {799} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Brézin}\ and\ \citenamefont {Zee}(1995)}]{Zee1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Brézin}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Zee}},\
+  }\href {\doibase https://doi.org/10.1016/0550-3213(95)00446-Y} {\bibfield
+  {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo
+  {volume} {453}},\ \bibinfo {pages} {531 } (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
+\end{thebibliography}%
