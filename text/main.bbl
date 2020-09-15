@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{6}%
+\begin{thebibliography}{9}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,12 +50,15 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Page}(1993)}]{Page1993}%
+\bibitem [{\citenamefont {Shapourian}\ \emph
+  {et~al.}(2020{\natexlab{a}})\citenamefont {Shapourian}, \citenamefont {Liu},\
+  and\ \citenamefont {Vishwanath}}]{SLA20}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~N.}\ \bibnamefont
-  {Page}},\ }\href {\doibase 10.1103/PhysRevLett.71.1291} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {71}},\
-  \bibinfo {pages} {1291} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Shapourian}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Liu}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Vishwanath}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {to appear}\ }
+  (\bibinfo {year} {2020}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Lloyd}\ and\ \citenamefont
   {Pagels}(1988)}]{Lloyd1988}%
   \BibitemOpen
@@ -100,4 +103,29 @@
   {journal} {\bibinfo  {journal} {Nuclear Physics B}\ }\textbf {\bibinfo
   {volume} {453}},\ \bibinfo {pages} {531 } (\bibinfo {year}
   {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{de Pietri}}\ and\ \citenamefont
+  {{Rovelli}}(1996)}]{1996PhRvD..54.2664D}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{de
+  Pietri}}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {{Rovelli}}},\ }\href {\doibase 10.1103/PhysRevD.54.2664} {\bibfield
+  {journal} {\bibinfo  {journal} {\prd}\ }\textbf {\bibinfo {volume} {54}},\
+  \bibinfo {pages} {2664} (\bibinfo {year} {1996})},\ \Eprint
+  {http://arxiv.org/abs/gr-qc/9602023} {gr-qc/9602023} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rovelli}(2004)}]{Rovelli:2004tv}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Rovelli}},\ }\href {\doibase 10.1017/CBO9780511755804} {\emph {\bibinfo
+  {title} {Quantum gravity}}},\ Cambridge Monographs on Mathematical Physics\
+  (\bibinfo  {publisher} {Cambridge Univ. Pr., Cambridge, UK},\ \bibinfo {year}
+  {2004})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shapourian}\ \emph
+  {et~al.}(2020{\natexlab{b}})\citenamefont {Shapourian}, \citenamefont
+  {Mong},\ and\ \citenamefont {Ryu}}]{SMR20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Shapourian}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Mong}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ryu}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {to appear}\ } (\bibinfo {year}
+  {2020}{\natexlab{b}})}\BibitemShut {NoStop}%
 \end{thebibliography}%
