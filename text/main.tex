@@ -1,4 +1,4 @@
-\documentclass[aps,pra,groupedaddress,twocolumn,notitlepage,superscriptaddress,10pt]{revtex4-1}
+\documentclass[aps,pra,groupedaddress,onecolumn,notitlepage,superscriptaddress,10pt]{revtex4-1}
 
 %\usepackage[utf8]{inputenc}
 %\usepackage{mathpazo}
@@ -82,9 +82,8 @@
 % \affiliation{Department of Physics, Harvard University, Cambridge, MA~02138, USA}
 % \affiliation{Department of Physics, Massachusetts Institute of Technology,
 % Cambridge, MA~02139, USA}
-\author{Jonah Kudler-flam%
-}
- \affiliation{Kadanoff Center for Theoretical Physics, University of Chicago, IL 60637, USA}
+\author{Jonah Kudler-flam}
+\affiliation{Kadanoff Center for Theoretical Physics, University of Chicago, IL 60637, USA}
 
 
 \date{\today}
@@ -269,21 +268,44 @@ Let us look at the dominant diagrams deep in the NPT limit, $L_A\gg L_B$, when o
 \begin{align}
     \vcenter{\hbox{\includegraphics[scale=0.4]{images/RN6_A2large.pdf}}},
 \end{align}
+TMD spacetime conjecture vs RMT (assuming $L_{A_1}\gg L_{A_2}$):
+\begin{align}
+	\braket{\Tr \left(\rho^{T_2}\right)^n } \approx \ 
+    \left\{
+    \begin{matrix}
+    \text{genus}~k-1~\text{with}~1\times \text{puncture}
+    & 
+    &
+    n\times A_1,   1\times A_2, 1\times B 
+     & \qquad  n=2k+1
+    \\
+    \\
+    \text{genus}~k~\text{with}~2\times \text{punctures}
+    & 
+    &
+    n\times A_1,   2\times A_2, 1\times B 
+     & \qquad  n=2k
+    \end{matrix}
+    \right.
+\end{align}
+
 
 This suggests that
 \begin{align}
     \braket{\cal E} \approx \ 
     \left\{
     \begin{matrix}
-    L_{B}^{1-n_e} L_{A_2}^{2-n_e} & \qquad  L_{A_1} \gg L_{A_2}
+    \log L_{A_2} & \qquad  L_{A_1} \gg L_{A_2},
     \\
     \\
-    L_{B}^{1-n_e} L_{A_1}^{2-n_e} & \qquad  L_{A_1} \ll L_{A_2}
+    \log L_{A_1} & \qquad  L_{A_1} \ll L_{A_2}.
     \end{matrix}
     \right.
 \end{align}
 This analysis may have some issues such as dependence on how we analytically continue R\'enyi index.
 In the next part, we use the resolvent function to calculate the spectral density of $\rT$ which provides an unambiguos way to derive the logarithmic negativity.
+
+
 
 \subsection{Resolvent function}
 
