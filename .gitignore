@@ -7,3 +7,5 @@ log_files/
 **/text/*.out
 **/text/*.synctex.gz
 data_draft/
+spin_data/
+spin_wf/
