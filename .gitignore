@@ -9,3 +9,5 @@ log_files/
 data_draft/
 spin_data/
 spin_wf/
+canonical_ent/
+canonical_ln/
