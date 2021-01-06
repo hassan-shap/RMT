@@ -1,0 +1,5 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Traceback (most recent call last):
+  File "/gscratch/home/hshapourian/RMT/generate_training.py", line 38, in <module>
+    randstate_pt = partial_transpose(randstate, [2] * NA, sysa=np.arange(NA1))
+TypeError: can't multiply sequence by non-int of type 'numpy.float64'
