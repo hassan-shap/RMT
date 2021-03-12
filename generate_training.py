@@ -6,7 +6,7 @@ import csv
 import time
 from numpy.linalg import matrix_power
 
-N = 14
+N = 16
 bond_dims  = [8,64,999] #[2,4,8,16,32,64,999]
 runs = 100
 
