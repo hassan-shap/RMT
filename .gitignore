@@ -8,6 +8,7 @@ log_files/
 **/text/*.out
 **/text/*.synctex.gz
 data_draft/
+data/
 spin_data/
 spin_wf/
 canonical_ent/
