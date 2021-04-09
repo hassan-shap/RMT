@@ -1,0 +1,17 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Traceback (most recent call last):
+  File "thermal_vs_Lc.py", line 115, in <module>
+    logneg_vals[i_r]=logneg(np.matrix(rho), dims=dims, sysa=np.arange(La))
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/core.py", line 268, in zeroified_f
+    x = fn(*args, **kwargs)
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/calc.py", line 761, in logneg
+    return max(0.0, log2(partial_transpose_norm(p, dims, sysa)))
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/calc.py", line 734, in partial_transpose_norm
+    return norm_trace_dense(partial_transpose(p, dims, sysa), isherm=True)
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/core.py", line 238, in qarray_fn
+    out = fn(*args, **kwargs)
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/calc.py", line 707, in partial_transpose
+    return (np.asarray(qu(p, "dop"))
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/core.py", line 1022, in quimbify
+    data = data.astype(dtype)
+MemoryError: Unable to allocate 64.0 GiB for an array with shape (65536, 65536) and data type complex128

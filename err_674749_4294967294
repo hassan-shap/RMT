@@ -1,3 +1,0 @@
-OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
-/var/spool/slurmd/job674749/slurm_script: line 19: 15850 Killed                  /gscratch/home/hshapourian/miniconda3/bin/python3 /gscratch/home/hshapourian/RMT/generate_training.py
-slurmstepd: error: Detected 1 oom-kill event(s) in step 674749.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

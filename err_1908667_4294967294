@@ -1,0 +1,2 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+/var/spool/slurmd/job1908667/slurm_script: line 13: 31668 Segmentation fault      /gscratch/home/hshapourian/miniconda3/bin/python3 thermal_vs_Lc.py

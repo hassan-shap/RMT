@@ -1,0 +1,49 @@
+beta is  0.5
+(Labc, r):  4 4 9 0
+(Labc, r):  4 4 9 10
+beta is  0.25
+(Labc, r):  4 4 9 0
+(Labc, r):  4 4 9 10
+Finished, elapsed time = 2.65 sec
+beta is  0.5
+(Labc, r):  4 4 10 0
+(Labc, r):  4 4 10 10
+beta is  0.25
+(Labc, r):  4 4 10 0
+(Labc, r):  4 4 10 10
+Finished, elapsed time = 1.78 sec
+beta is  0.5
+(Labc, r):  4 4 11 0
+(Labc, r):  4 4 11 10
+beta is  0.25
+(Labc, r):  4 4 11 0
+(Labc, r):  4 4 11 10
+Finished, elapsed time = 2.96 sec
+beta is  0.5
+(Labc, r):  4 4 12 0
+(Labc, r):  4 4 12 10
+beta is  0.25
+(Labc, r):  4 4 12 0
+(Labc, r):  4 4 12 10
+Finished, elapsed time = 5.41 sec
+beta is  0.5
+(Labc, r):  4 4 13 0
+(Labc, r):  4 4 13 10
+beta is  0.25
+(Labc, r):  4 4 13 0
+(Labc, r):  4 4 13 10
+Finished, elapsed time = 11.23 sec
+beta is  0.5
+(Labc, r):  4 4 14 0
+(Labc, r):  4 4 14 10
+beta is  0.25
+(Labc, r):  4 4 14 0
+(Labc, r):  4 4 14 10
+Finished, elapsed time = 22.66 sec
+beta is  0.5
+(Labc, r):  4 4 15 0
+(Labc, r):  4 4 15 10
+beta is  0.25
+(Labc, r):  4 4 15 0
+(Labc, r):  4 4 15 10
+Finished, elapsed time = 44.93 sec

@@ -1,0 +1,7 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Traceback (most recent call last):
+  File "thermal_vs_Lc.py", line 112, in <module>
+    mat= dot(X,np.matrix(X).H)
+  File "/gscratch/home/hshapourian/miniconda3/lib/python3.8/site-packages/quimb/core.py", line 589, in dot
+    return a.dot(b)
+MemoryError: Unable to allocate 1.00 TiB for an array with shape (262144, 262144) and data type complex128

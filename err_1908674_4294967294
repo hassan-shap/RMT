@@ -1,0 +1,7 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Traceback (most recent call last):
+  File "thermal_vs_Lc.py", line 97, in <module>
+    H1 = ising_chain_partial(La=Lab, L=Lab+Lc, g=1.05, h=-0.5, cyclic=False,sparse=True)
+  File "thermal_vs_Lc.py", line 63, in ising_chain_partial
+    H= core.sparse_matrix(H)
+NameError: name 'core' is not defined

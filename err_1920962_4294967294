@@ -1,0 +1,2 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+slurmstepd: error: *** JOB 1920962 ON h16m-low-15 CANCELLED AT 2021-04-08T19:16:59 ***

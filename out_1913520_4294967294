@@ -1,0 +1,57 @@
+((0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (9, 10), (10, 11))
+beta is  0
+(Labc, r):  6 6 2 0
+(Labc, r):  6 6 2 10
+Finished, elapsed time = 137.65 sec
+beta is  0
+(Labc, r):  6 6 3 0
+(Labc, r):  6 6 3 10
+Finished, elapsed time = 135.92 sec
+beta is  0
+(Labc, r):  6 6 4 0
+(Labc, r):  6 6 4 10
+Finished, elapsed time = 91.64 sec
+beta is  0
+(Labc, r):  6 6 5 0
+(Labc, r):  6 6 5 10
+Finished, elapsed time = 61.44 sec
+beta is  0
+(Labc, r):  6 6 6 0
+(Labc, r):  6 6 6 10
+Finished, elapsed time = 34.16 sec
+beta is  0
+(Labc, r):  6 6 7 0
+(Labc, r):  6 6 7 10
+Finished, elapsed time = 36.61 sec
+beta is  0
+(Labc, r):  6 6 8 0
+(Labc, r):  6 6 8 10
+Finished, elapsed time = 38.36 sec
+beta is  0
+(Labc, r):  6 6 9 0
+(Labc, r):  6 6 9 10
+Finished, elapsed time = 53.48 sec
+beta is  0
+(Labc, r):  6 6 10 0
+(Labc, r):  6 6 10 10
+Finished, elapsed time = 111.94 sec
+beta is  0
+(Labc, r):  6 6 11 0
+(Labc, r):  6 6 11 10
+Finished, elapsed time = 253.55 sec
+beta is  0
+(Labc, r):  6 6 12 0
+(Labc, r):  6 6 12 10
+Finished, elapsed time = 316.13 sec
+beta is  0
+(Labc, r):  6 6 13 0
+(Labc, r):  6 6 13 10
+Finished, elapsed time = 335.69 sec
+beta is  0
+(Labc, r):  6 6 14 0
+(Labc, r):  6 6 14 10
+Finished, elapsed time = 434.72 sec
+beta is  0
+(Labc, r):  6 6 15 0
+(Labc, r):  6 6 15 10
+Finished, elapsed time = 679.28 sec
