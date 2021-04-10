@@ -1,0 +1,5 @@
+OMP: Info #270: omp_set_nested routine deprecated, please use omp_set_max_active_levels instead.
+Traceback (most recent call last):
+  File "LN_U1_symm.py", line 34, in <module>
+    Npt_sw = np.arange(4,int((La+Lb+Lc)/2))
+NameError: name 'La' is not defined
