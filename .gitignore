@@ -7,6 +7,7 @@ log_files/
 **/text/*.fls
 **/text/*.out
 **/text/*.synctex.gz
+thermal_data/
 data/
 data_draft/
 spin_data/
