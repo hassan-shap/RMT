@@ -31,8 +31,8 @@ r=2 # local Hilbert space dim
 symm=1
 
 Labc= 20
-Npt_sw = np.arange(4,int((Labc)/2))
-Lc_sw=np.arange(4,Labc)
+Npt_sw = np.arange(7,int((Labc)/2))
+Lc_sw=np.arange(Labc-1,6,-1)
 
 
 for Npt in Npt_sw:

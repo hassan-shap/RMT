@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --partition=h16m-low
+#SBATCH --partition=nc24-low 
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=16
+#SBATCH --cpus-per-task=24
 #SBATCH --time=48:00:00
 #SBATCH --job-name=U1_vs_La
 #SBATCH --output=out_%A_%a
