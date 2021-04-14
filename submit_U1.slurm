@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=nc24-low 
+#SBATCH --partition=nc24-high
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=24

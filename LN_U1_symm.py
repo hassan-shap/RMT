@@ -30,9 +30,11 @@ Nrep=20
 r=2 # local Hilbert space dim
 symm=1
 
-Labc= 20
-Npt_sw = np.arange(7,int((Labc)/2))
-Lc_sw=np.arange(Labc-1,6,-1)
+Labc= 16
+Npt_sw = np.arange(1,int((Labc)/2)+1)
+# Npt_sw = [int((Labc)/2)]
+Lc_sw=np.arange(Labc-1,1,-1)
+# Lc_sw=np.arange(6,1,-1)
 
 
 for Npt in Npt_sw:
@@ -58,7 +60,7 @@ for Npt in Npt_sw:
                 i_c.append(np.argwhere(np.sum(s_c,axis=1)==i_r)[:,0])        
 
         ln_vals=np.zeros((Nrep,Lab+1))
-        ln_vals2=np.zeros((Nrep,Lab+1))
+        mi_vals=np.zeros((Nrep,Lab+1))
 
         t_timer= time.time()
         for i_r in range(Nrep):
@@ -76,7 +78,7 @@ for Npt in Npt_sw:
             for La in range(Lab+1):
                 Lb = Labc-Lc-La
                 ln_vals[i_r,La]= logneg(rho,dims=[r]*(Lab),sysa=range(La))
-
+                mi_vals[i_r,La]= mutual_information(rho,dims=[r]*Lab, sysa=range(La))
     #         elapsed = time.time() - t_timer
     #         print("density: ", elapsed)
 
@@ -99,7 +101,7 @@ for Npt in Npt_sw:
                 f1= 'LN_Labc_%d_%d_%d.npz' % (La,Lb,Lc)
             print(f1+' was saved!')
             fname = out_dir+f1
-            np.savez(fname, ln_vals=ln_vals[:,La], Nrep=Nrep)
+            np.savez(fname, ln_vals=ln_vals[:,La], mi_vals=mi_vals[:,La], Nrep=Nrep)
         elapsed = time.time() - t_timer
         print("Finished, elapsed time = %.2f " % (elapsed)+ "sec")
     #     print(ln_vals)
