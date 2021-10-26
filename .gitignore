@@ -9,6 +9,7 @@ log_files/
 **/text/*.synctex.gz
 thermal_data/
 data/
+Hong_data/
 data_draft/
 spin_data/
 spin_wf/
